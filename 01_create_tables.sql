@@ -16,9 +16,9 @@ create table barang_ds(
     kode_barang varchar(7),
     nama_barang varchar(41),
     kemasan varchar(6),
-    harga int(11),
+    harga int,
     nama_tipe varchar(11),
-    kode_brand int(11),
+    kode_brand int,
     brand varchar(8)
 );
 -- table pelanggan
@@ -67,78 +67,4 @@ create table penjualan_ds(
     harga int,
     mata_uang varchar(3)
 );
--- import data csv lalu masukkan kedalam table di database
--- Make sure dataset path (in local storage) must be complete until the file_name.csv
--- COPY DATA PENJUALAN
-COPY penjualan (
-    id_distributor,
-    id_cabang,
-    id_invoice,
-    tanggal,
-    id_customer,
-    id_barang,
-    jumlah_barang,
-    unit,
-    harga,
-    mata_uang,
-    brand_id,
-    lini
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\penjualan.csv' DELIMITER ',' CSV HEADER;
--- COPY DATA PENJUALAN_DS
-COPY penjualan_ds(
-    id_invoice,
-    tanggal,
-    id_customer,
-    id_barang,
-    jumlah_barang,
-    unit,
-    harga,
-    mata_uang
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\penjualan_ds.csv' DELIMITER ',' CSV HEADER;
--- COPY DATA PELANGGAN
-COPY pelanggan(
-    id_customer,
-    level,
-    nama,
-    id_cabang_sales,
-    cabang_sales,
-    id_group,
-    grup
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\pelanggan.csv' DELIMITER ',' CSV HEADER;
--- COPY DATA PELANGGAN_DS
-COPY pelanggan_ds(
-    id_customer,
-    level,
-    nama,
-    id_cabang_sales,
-    cabang_sales,
-    id_distributor,
-    grup
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\pelanggan_ds.csv' DELIMITER ',' CSV HEADER;
--- COPY DATA TABLE BARANG
-COPY barang(
-    kode_barang,
-    sektor,
-    nama_barang,
-    tipe,
-    nama_tipe,
-    kode_lini,
-    lini,
-    kemasan
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\barang.csv' DELIMITER ',' CSV HEADER;
--- COPY DATA TABLE BARANG_DS
-COPY barang_ds(
-    kode_barang,
-    nama_barang,
-    kemasan,
-    harga,
-    nama_tipe,
-    kode_brand,
-    brand
-)
-FROM 'C:\Users\bagaswara\Documents\VIX\Kimia_Farma_Sales_Analysis\datasets\barang_ds.csv' DELIMITER ',' CSV HEADER;
+-- INSERT DATA TO TABLE
