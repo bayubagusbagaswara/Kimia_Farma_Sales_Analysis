@@ -1,45 +1,44 @@
--- Define the tables
--- table barang, barang_ds, penjualan, penjualan_ds, pelangga, pelanggan_ds
+-- Membuat table barang, barang_ds, penjualan, penjualan_ds, pelanggan, pelanggan_ds
 -- table barang
-create table barang(
+create table barang (
     kode_barang varchar(7),
-    sektor varchar(1),
-    nama_barang varchar(41),
-    tipe varchar(4),
-    nama_tipe varchar(11),
+    kemasan varchar(6),
     kode_lini int,
     lini varchar(8),
-    kemasan varchar(6)
+    nama_barang varchar(41),
+    nama_tipe varchar(11),
+    sektor varchar(1),
+    tipe varchar(4)
 );
 -- table barang_ds
-create table barang_ds(
+create table barang_ds (
     kode_barang varchar(7),
-    nama_barang varchar(41),
-    kemasan varchar(6),
+    brand varchar(8),
     harga int,
-    nama_tipe varchar(11),
+    kemasan varchar(6),
     kode_brand int,
-    brand varchar(8)
+    nama_barang varchar(41),
+    nama_tipe varchar(11)
 );
 -- table pelanggan
-create table pelanggan(
+create pelanggan (
     id_customer varchar(9),
-    level varchar(7),
-    nama varchar(17),
-    id_cabang_sales varchar(5),
     cabang_sales varchar(9),
+    group varchar(6),
+    id_cabang_sales varchar(5),
     id_group varchar(3),
-    grup varchar(6)
+    level varchar(7),
+    nama varchar(17)
 );
 -- table pelanggan_ds
-create table pelanggan_ds(
+create table pelanggan_ds (
     id_customer varchar(9),
-    level varchar(7),
-    nama varchar(17),
-    id_cabang_sales varchar(5),
     cabang_sales varchar(9),
+    group varchar(6),
+    id_cabang_sales varchar(5),
     id_distributor varchar(3),
-    grup varchar(6)
+    level varchar(7),
+    nama varchar(17)
 );
 -- table penjualan
 create table penjualan(
@@ -67,4 +66,3 @@ create table penjualan_ds(
     harga int,
     mata_uang varchar(3)
 );
--- INSERT DATA TO TABLE
