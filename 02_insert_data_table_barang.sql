@@ -1,4 +1,3 @@
--- insert data ke tabel barang
 insert into barang (
         kode_barang,
         sektor,
