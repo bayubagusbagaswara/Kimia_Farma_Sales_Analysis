@@ -24,3 +24,33 @@
 # Table Aggregate atau Table Fact
 - Intinya ini adalah table utama yang akan kita gunakan untuk visualization.
 - Table ini dibuat berdasarkan table base atau table dimension
+
+
+ALTER TABLE user CHANGE username namauser varchar(100);
+
+# Salicyl Dashboard 
+- berarti kita hanya membutuhkan Penjualan Salicyl
+
+# Rencana yang akan kita tampilkan di dashboard
+Salicyl itu adalah NAMA BRAND
+
+Paling Atas ada kolom `Total Penjualan Salicyl`
+
+1. Tampilan Penjualan Salicyl berdasarkan rentang tanggal `(butuh tanggal penjualan)`
+2. Tampilan Penjualan Salicyl berdasarkan Nama Customer `(butuh data customer/pelanggan, ada nama-nama apotik dan klinik)`
+3. Tampilan Penjualan Salicyl berdasarkan Cabang Sales `(butuh data cabang sales misal Jakarta, Aceh)`
+4. Tampilan Penjualan Salicyl berdasarkan Group `(butuh data Group, misal Apotik, Klinik)`
+5. Tampilan Penjualan Salicyl berdasarkan Nama Barang `(salicyl memiliki 2 jenis barang)`
+
+# Table Pelanggan_dim
+- id_customer
+- level
+- nama
+- cabang_sales
+- group
+
+# Table Barang_dim
+- kode_barang alias id_barang
+- nama_barang
+- kemasan
+- harga
