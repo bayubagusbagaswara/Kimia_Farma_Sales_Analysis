@@ -6,7 +6,8 @@ insert into barang (
         nama_tipe,
         kode_lini,
         lini,
-        kemasan
+        kemasan,
+        harga
     )
 values (
         'BRG0001',
@@ -16,7 +17,8 @@ values (
         'Produk jadi',
         206,
         'OGB & PH',
-        'DUS'
+        'DUS',
+        96000
     ),
     (
         'BRG0002',
@@ -26,7 +28,8 @@ values (
         'Produk jadi',
         203,
         'ETIKAL',
-        'DUS'
+        'DUS',
+        112000
     ),
     (
         'BRG0003',
@@ -36,7 +39,8 @@ values (
         'Produk jadi',
         210,
         'MARCKS',
-        'BOTOL'
+        'BOTOL',
+        17000
     ),
     (
         'BRG0004',
@@ -46,7 +50,8 @@ values (
         'Produk jadi',
         201,
         'VNS',
-        'KAPSUL'
+        'KAPSUL',
+        24500
     ),
     (
         'BRG0005',
@@ -56,7 +61,8 @@ values (
         'Produk jadi',
         203,
         'SLCYL',
-        'TABLET'
+        'TABLET',
+        47000
     ),
     (
         'BRG0006',
@@ -66,7 +72,8 @@ values (
         'Produk jadi',
         205,
         'OGB & PH',
-        'TABLET'
+        'TABLET',
+        39000
     ),
     (
         'BRG0007',
@@ -76,7 +83,8 @@ values (
         'Produk jadi',
         206,
         'ETIKAL',
-        'BOTOL'
+        'BOTOL',
+        64700
     ),
     (
         'BRG0008',
@@ -86,7 +94,8 @@ values (
         'Produk jadi',
         204,
         'MARCKS',
-        'KAPSUL'
+        'KAPSUL',
+        9800
     ),
     (
         'BRG0009',
@@ -96,7 +105,8 @@ values (
         'Produk jadi',
         207,
         'VNS',
-        'BOTOL'
+        'BOTOL',
+        31000
     ),
     (
         'BRG0010',
@@ -106,5 +116,6 @@ values (
         'Produk jadi',
         208,
         'SLCYL',
-        'BOTOL'
+        'BOTOL',
+        21000
     );
