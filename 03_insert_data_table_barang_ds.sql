@@ -1,4 +1,3 @@
--- insert data ke tabel barang_ds
 insert into barang_ds(
         kode_barang,
         nama_barang,
