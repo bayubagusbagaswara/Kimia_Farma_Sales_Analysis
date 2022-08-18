@@ -1,12 +1,11 @@
--- insert data ke tabel pelanggan
 insert into pelanggan (
         id_customer,
-        level,
+        `level`,
         nama,
         id_cabang_sales,
         cabang_sales,
         id_group,
-        group
+        `group`
     )
 values (
         'CUST55380',
