@@ -1,4 +1,3 @@
--- insert data ke tabel penjualan_ds
 insert into penjualan_ds (
         id_invoice,
         tanggal,
