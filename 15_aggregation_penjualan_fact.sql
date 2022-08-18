@@ -1,0 +1,2 @@
+--  penjualan hanya SLCYL
+-- setelah kita filter SLCYL, lalu kita join dengan table pelanggan dan barang (kita ingin menambahkan kolom baru dari kolom table pelanggan dan barang)
