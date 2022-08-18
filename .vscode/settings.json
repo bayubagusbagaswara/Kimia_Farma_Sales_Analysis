@@ -37,14 +37,17 @@
   "java.configuration.updateBuildConfiguration": "automatic",
   "sqltools.connections": [
     {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
       "previewLimit": 50,
       "server": "localhost",
-      "port": 5432,
+      "port": 3306,
       "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "Sales DB",
-      "database": "sales_db",
-      "username": "admin"
+      "driver": "MySQL",
+      "name": "SalesDB",
+      "database": "salesdb",
+      "username": "root"
     }
   ]
 }
