@@ -21,10 +21,10 @@ create table barang_ds (
     nama_tipe varchar(11)
 );
 -- table pelanggan
-create pelanggan (
+create table pelanggan (
     id_customer varchar(9),
     cabang_sales varchar(9),
-    group varchar(6),
+    `group` varchar(6),
     id_cabang_sales varchar(5),
     id_group varchar(3),
     level varchar(7),
@@ -34,7 +34,7 @@ create pelanggan (
 create table pelanggan_ds (
     id_customer varchar(9),
     cabang_sales varchar(9),
-    group varchar(6),
+    `group` varchar(6),
     id_cabang_sales varchar(5),
     id_distributor varchar(3),
     level varchar(7),
