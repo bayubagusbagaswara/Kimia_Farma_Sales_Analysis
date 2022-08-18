@@ -6,5 +6,6 @@ create table barang (
     nama_barang varchar(41),
     nama_tipe varchar(11),
     sektor varchar(1),
-    tipe varchar(4)
+    tipe varchar(4),
+    harga int
 );
