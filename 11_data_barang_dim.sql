@@ -6,4 +6,4 @@ select distinct kode_barang,
     lini,
     kemasan,
     harga
-from barang
+from barang;
