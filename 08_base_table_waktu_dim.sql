@@ -1,7 +1,5 @@
--- kita buat table base, meliputi waktu_dim, pelanggan_dim, dan barang_dim
--- TABLE WAKTU_DIM
 create table waktu_dim (
-    id_waktu int,
+    id_waktu int auto_increment,
     tanggal date,
     hari int,
     minggu int,
