@@ -1,4 +1,3 @@
--- insert data ke tabel penjualan
 insert into penjualan (
         id_distributor,
         id_cabang,
