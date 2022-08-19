@@ -4,7 +4,7 @@ insert into pelanggan (
         nama,
         id_cabang_sales,
         cabang_sales,
-        id_group,
+        id_distributor,
         `group`
     )
 values (
@@ -13,7 +13,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -22,7 +22,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -31,7 +31,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -40,7 +40,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -49,7 +49,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -58,7 +58,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -67,7 +67,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -76,7 +76,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -85,7 +85,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -94,7 +94,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -103,7 +103,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -112,7 +112,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -121,7 +121,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -130,7 +130,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -139,7 +139,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -148,7 +148,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -157,7 +157,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -166,7 +166,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -175,7 +175,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -184,7 +184,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -193,7 +193,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -202,7 +202,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -211,7 +211,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -220,7 +220,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -229,7 +229,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -238,7 +238,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -247,7 +247,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -256,7 +256,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -265,7 +265,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -274,7 +274,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -283,7 +283,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -292,7 +292,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -301,7 +301,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -310,7 +310,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -319,7 +319,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -328,7 +328,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -337,7 +337,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -346,7 +346,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -355,7 +355,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -364,7 +364,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -373,7 +373,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -382,7 +382,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -391,7 +391,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -400,7 +400,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -409,7 +409,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -418,7 +418,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -427,7 +427,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -436,7 +436,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -445,7 +445,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -454,7 +454,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -463,7 +463,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -472,7 +472,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -481,7 +481,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -490,7 +490,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -499,7 +499,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -508,7 +508,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -517,7 +517,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -526,7 +526,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -535,7 +535,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -544,7 +544,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -553,7 +553,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -562,7 +562,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -571,7 +571,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -580,7 +580,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -589,7 +589,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -598,7 +598,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -607,7 +607,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -616,7 +616,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -625,7 +625,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -634,7 +634,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -643,7 +643,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -652,7 +652,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -661,7 +661,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -670,7 +670,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -679,7 +679,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -688,7 +688,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -697,7 +697,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -706,7 +706,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -715,7 +715,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -724,7 +724,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -733,7 +733,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -742,7 +742,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -751,7 +751,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -760,7 +760,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -769,7 +769,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -778,7 +778,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -787,7 +787,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -796,7 +796,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -805,7 +805,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -814,7 +814,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -823,7 +823,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -832,7 +832,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -841,7 +841,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -850,7 +850,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -859,7 +859,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -868,7 +868,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -877,7 +877,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -886,7 +886,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -895,7 +895,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -904,7 +904,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -913,7 +913,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -922,7 +922,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -931,7 +931,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -940,7 +940,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -949,7 +949,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -958,7 +958,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -967,7 +967,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -976,7 +976,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -985,7 +985,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -994,7 +994,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1003,7 +1003,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1012,7 +1012,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1021,7 +1021,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1030,7 +1030,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1039,7 +1039,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1048,7 +1048,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1057,7 +1057,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1066,7 +1066,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1075,7 +1075,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1084,7 +1084,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1093,7 +1093,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1102,7 +1102,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1111,7 +1111,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1120,7 +1120,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1129,7 +1129,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1138,7 +1138,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1147,7 +1147,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1156,7 +1156,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1165,7 +1165,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1174,7 +1174,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1183,7 +1183,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1192,7 +1192,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1201,7 +1201,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1210,7 +1210,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1219,7 +1219,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1228,7 +1228,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1237,7 +1237,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1246,7 +1246,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1255,7 +1255,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1264,7 +1264,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1273,7 +1273,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1282,7 +1282,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1291,7 +1291,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1300,7 +1300,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1309,7 +1309,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1318,7 +1318,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1327,7 +1327,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1336,7 +1336,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1345,7 +1345,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1354,7 +1354,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1363,7 +1363,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1372,7 +1372,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1381,7 +1381,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1390,7 +1390,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1399,7 +1399,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1408,7 +1408,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1417,7 +1417,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1426,7 +1426,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1435,7 +1435,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1444,7 +1444,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1453,7 +1453,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1462,7 +1462,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1471,7 +1471,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1480,7 +1480,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1489,7 +1489,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1498,7 +1498,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1507,7 +1507,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1516,7 +1516,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1525,7 +1525,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1534,7 +1534,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1543,7 +1543,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1552,7 +1552,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1561,7 +1561,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1570,7 +1570,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1579,7 +1579,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1588,7 +1588,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1597,7 +1597,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1606,7 +1606,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1615,7 +1615,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1624,7 +1624,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1633,7 +1633,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1642,7 +1642,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1651,7 +1651,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1660,7 +1660,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1669,7 +1669,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1678,7 +1678,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1687,7 +1687,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1696,7 +1696,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1705,7 +1705,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1714,7 +1714,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1723,7 +1723,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1732,7 +1732,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1741,7 +1741,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1750,7 +1750,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1759,7 +1759,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1768,7 +1768,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1777,7 +1777,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1786,7 +1786,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1795,7 +1795,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1804,7 +1804,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1813,7 +1813,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1822,7 +1822,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1831,7 +1831,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1840,7 +1840,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1849,7 +1849,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1858,7 +1858,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1867,7 +1867,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1876,7 +1876,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1885,7 +1885,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1894,7 +1894,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1903,7 +1903,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1912,7 +1912,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1921,7 +1921,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1930,7 +1930,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1939,7 +1939,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -1948,7 +1948,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1957,7 +1957,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1966,7 +1966,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -1975,7 +1975,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -1984,7 +1984,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -1993,7 +1993,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2002,7 +2002,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2011,7 +2011,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2020,7 +2020,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2029,7 +2029,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2038,7 +2038,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2047,7 +2047,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2056,7 +2056,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2065,7 +2065,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2074,7 +2074,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2083,7 +2083,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2092,7 +2092,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2101,7 +2101,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2110,7 +2110,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2119,7 +2119,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2128,7 +2128,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2137,7 +2137,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2146,7 +2146,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2155,7 +2155,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2164,7 +2164,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2173,7 +2173,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2182,7 +2182,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2191,7 +2191,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2200,7 +2200,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2209,7 +2209,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2218,7 +2218,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2227,7 +2227,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2236,7 +2236,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2245,7 +2245,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2254,7 +2254,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2263,7 +2263,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2272,7 +2272,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2281,7 +2281,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2290,7 +2290,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2299,7 +2299,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2308,7 +2308,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2317,7 +2317,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2326,7 +2326,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2335,7 +2335,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2344,7 +2344,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2353,7 +2353,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2362,7 +2362,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2371,7 +2371,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2380,7 +2380,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2389,7 +2389,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2398,7 +2398,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2407,7 +2407,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2416,7 +2416,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2425,7 +2425,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2434,7 +2434,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2443,7 +2443,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2452,7 +2452,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2461,7 +2461,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2470,7 +2470,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2479,7 +2479,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2488,7 +2488,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2497,7 +2497,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2506,7 +2506,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2515,7 +2515,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2524,7 +2524,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2533,7 +2533,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2542,7 +2542,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2551,7 +2551,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2560,7 +2560,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2569,7 +2569,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2578,7 +2578,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2587,7 +2587,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2596,7 +2596,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2605,7 +2605,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2614,7 +2614,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2623,7 +2623,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2632,7 +2632,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2641,7 +2641,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2650,7 +2650,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2659,7 +2659,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2668,7 +2668,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2677,7 +2677,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2686,7 +2686,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2695,7 +2695,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2704,7 +2704,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2713,7 +2713,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2722,7 +2722,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2731,7 +2731,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2740,7 +2740,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2749,7 +2749,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2758,7 +2758,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2767,7 +2767,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2776,7 +2776,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2785,7 +2785,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2794,7 +2794,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2803,7 +2803,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2812,7 +2812,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2821,7 +2821,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2830,7 +2830,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2839,7 +2839,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2848,7 +2848,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2857,7 +2857,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2866,7 +2866,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2875,7 +2875,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2884,7 +2884,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2893,7 +2893,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2902,7 +2902,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2911,7 +2911,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2920,7 +2920,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2929,7 +2929,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -2938,7 +2938,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2947,7 +2947,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2956,7 +2956,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -2965,7 +2965,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2974,7 +2974,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -2983,7 +2983,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -2992,7 +2992,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3001,7 +3001,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -3010,7 +3010,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3019,7 +3019,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -3028,7 +3028,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3037,7 +3037,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -3046,7 +3046,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -3055,7 +3055,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3064,7 +3064,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -3073,7 +3073,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3082,7 +3082,7 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -3091,7 +3091,7 @@ values (
         'APOTEK SINAR JAYA',
         'CAB06',
         'Bekasi',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3100,7 +3100,7 @@ values (
         'APOTEK SAHABAT',
         'CAB07',
         'Padang',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -3109,7 +3109,7 @@ values (
         'KLINIK DR. ANDRI',
         'CAB08',
         'Lampung',
-        'Z31',
+        'TD',
         'Klinik'
     ),
     (
@@ -3118,7 +3118,7 @@ values (
         'APOTEK TAPAK',
         'CAB01',
         'Aceh',
-        'Z32',
+        'EPM',
         'Apotek'
     ),
     (
@@ -3127,7 +3127,7 @@ values (
         'APOTEK MAJA',
         'CAB02',
         'Kuningan',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3136,7 +3136,7 @@ values (
         'KLINIK GM',
         'CAB03',
         'Jakarta',
-        'Z31',
+        'TA',
         'Klinik'
     ),
     (
@@ -3145,7 +3145,7 @@ values (
         'APOTEK MERDEKA',
         'CAB04',
         'Bandung',
-        'Z32',
+        'TA',
         'Apotek'
     ),
     (
@@ -3154,6 +3154,6 @@ values (
         'KLINIK SAHABAT',
         'CAB05',
         'Tangerang',
-        'Z31',
+        'TD',
         'Klinik'
     );
