@@ -54,3 +54,8 @@ Paling Atas ada kolom `Total Penjualan Salicyl`
 - nama_barang
 - kemasan
 - harga
+
+# Tabel Pertama yang ada di Data Warehouse
+1. Table Barang (sudah fix)
+2. Tabel Pelanggan (kita ambil dari data pelanggan_ds.csv), kita buat lagi
+3. Table Penjualan (sudah fix), kita ambil dari penjualan.csv
