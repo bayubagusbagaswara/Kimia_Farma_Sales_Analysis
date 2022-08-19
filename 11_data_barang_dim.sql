@@ -3,7 +3,7 @@
 insert into barang_dim
 select distinct kode_barang,
     nama_barang,
-    lini,
+    lini as brand,
     kemasan,
     harga
 from barang;
