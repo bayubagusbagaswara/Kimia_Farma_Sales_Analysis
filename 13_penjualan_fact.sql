@@ -1,52 +1,43 @@
--- kita create table penjualan_fact berdasarkan select dari table penjualan
--- kita tambahkan kolom TOTAL_PENJUALAN
--- kolom harga kita akan ambil dari table barang
--- kita hanya butuh data/kolom dari table penjualan adalah id_waktu, id_distributor, id_cabang, id_invoice, tanggal, id_customer, id_barang, jumlah_barang, lini
-create table penjualan_fact (
+-- table aggregation
+create table penjualan_fact_new (
+    id_distributor varchar(3) as "ID Distributor",
+    id_invoice varchar(6) as "ID Invoice",
+    tanggal datetime as "Tanggal",
+    minggu int as "Minggu",
+    bulan int as "Bulan",
+    id_customer varchar(9) as "ID Customer",
+    `level` varchar(10) as "Level",
+    nama_customer varchar(17) as "Nama Customer",
+    id_cabang_sales varchar(5) as "ID Cabang Sales",
+    nama_cabang_sales varchar(9) as "Nama Cabang Sales",
+    `group` varchar(6) as "Group",
+    id_barang varchar(7) as "ID Barang",
+    nama_barang varchar(41) as "Nama Barang",
+    nama_brand varchar(10) as "Nama Brand",
+    harga_per_kemasan int as "Harga per Kemasan",
+    jumlah_barang int as "Jumlah Barang",
+    unit varchar(6) as "Unit",
+    total_penjualan int as "Total Penjualan"
+);
+-- tanpa nama ganti
+create table penjualan_fact_new (
     id_distributor varchar(3),
-    id_cabang varchar(5),
     id_invoice varchar(6),
     tanggal date,
+    id_waktu int,
+    minggu int,
+    bulan int,
     id_customer varchar(9),
+    `level` varchar(10),
+    nama_customer varchar(17),
+    id_cabang_sales varchar(5),
+    nama_cabang_sales varchar(9),
+    `group` varchar(6),
     id_barang varchar(7),
-    id_brand varchar(7),
-    jumlah_barang int(5),
-    lini varchar(10),
-    harga int,
-    total_sales int
-);
--- create baru
-CREATE TABLE aggregate_new AS(
-    SELECT p.id_distributor,
-        p.id_invoice,
-        p.tanggal,
-        p.brand_id,
-        p.jumlah_barang,
-        p.unit,
-        p.mata_uang,
-        p.id_customer,
-        pd.nama as nama_customer,
-        p.id_cabang,
-        pd.cabang_sales as cabang_sales,
-        pd.group as `group`,
-        p.id_barang,
-        bd.nama_barang as nama_barang,
-        bd.lini,
-        bd.kemasan as kemasan,
-        bd.harga
-    FROM penjualan as p
-        JOIN barang_dim as bd ON p.id_barang = bd.id_barang
-        JOIN pelanggan_dim as pd ON p.id_customer = pd.id_customer
-);
--- baruu
-CREATE TABLE aggregat_table AS(
-    SELECT p.id_distributor,
-        p.id_invoice,
-        p.tanggal,
-        p.brand_id,
-        p.jumlah_barang,
-        p.id_customer,
-        p.id_cabang,
-        p.id_barang
-    FROM penjualan as p
+    nama_barang varchar(41),
+    nama_brand varchar(10),
+    harga_per_kemasan int,
+    jumlah_barang int,
+    unit varchar(6),
+    total_penjualan int
 );
