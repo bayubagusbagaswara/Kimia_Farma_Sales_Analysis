@@ -1,17 +1,23 @@
--- coba kita isi data table penjualan_fact dari table penjualan
--- urutan datanya id_waktu, id_distributor, id_cabang, id_invoice, tanggal, id_customer, id_barang, id_brand, jumlah_barang, lini, harga
--- Untuk informasi data Customer kita memerlukan data id_customer, level, nama_customer, cabang_sales, group
--- Untuk informasi data Barang kita memerlukan data id_barang, nama_barang, kemasan, harga
-INSERT INTO penjualan_fact
-SELECT p.id_distributor,
+insert into penjualan_fact_new
+select p.id_distributor,
     p.id_invoice,
     p.tanggal,
-    p.brand_id,
-    p.jumlah_barang,
+    wd.id_waktu,
+    wd.minggu,
+    wd.bulan,
     p.id_customer,
-    p.id_cabang,
+    pd.level,
+    pd.nama_customer,
+    pd.id_cabang_sales,
+    pd.nama_cabang_sales,
+    pd.group,
     p.id_barang,
-    p.lini,
-    bd.harga
+    bd.nama_barang,
+    bd.brand as nama_brand,
+    bd.harga as harga_per_kemasan p.jumlah_barang,
+    p.unit,
+    p.jumlah_barang * bd.harga as total_penjualan
 FROM penjualan as p
-    JOIN barang_dim as bd ON p.id_barang = bd.id_barang;
+    JOIN waktu_dim as wd ON p.tanggal = wd.tanggal
+    JOIN barang_dim as bd ON p.id_barang = bd.id_barang
+    JOIN pelanggan_dim as pd ON p.id_customer = pd.id_customer;
