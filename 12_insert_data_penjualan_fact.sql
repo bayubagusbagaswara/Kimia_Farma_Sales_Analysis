@@ -13,9 +13,9 @@ select CONCAT(p.id_invoice, pd.id_customer) as id_penjualan,
     bd.nama_barang,
     bd.brand as nama_brand,
     p.jumlah_barang as jumlah_barang_terjual,
-    bd.harga as harga_per_kemasan,
     bd.kemasan,
-    p.jumlah_barang * bd.harga as total_penjualan
+    bd.harga as harga_per_kemasan,
+    p.jumlah_barang * bd.harga as total_harga
 FROM penjualan as p
     JOIN barang_dim as bd ON p.id_barang = bd.id_barang
     JOIN pelanggan_dim as pd ON p.id_customer = pd.id_customer;
