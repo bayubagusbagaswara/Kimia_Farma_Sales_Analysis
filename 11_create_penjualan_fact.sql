@@ -13,8 +13,8 @@ create table penjualan_fact (
     id_barang varchar(7),
     nama_barang varchar(41),
     nama_brand varchar(10),
+    jumlah_barang_terjual int,
     harga_per_kemasan int,
-    jumlah_barang int,
-    unit varchar(6),
+    kemasan varchar(6),
     total_penjualan int
 );
