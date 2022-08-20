@@ -59,3 +59,7 @@ Paling Atas ada kolom `Total Penjualan Salicyl`
 1. Table Barang (sudah fix)
 2. Tabel Pelanggan (kita ambil dari data pelanggan_ds.csv), kita buat lagi
 3. Table Penjualan (sudah fix), kita ambil dari penjualan.csv
+
+# Langkah Selanjutnya
+- Bagaimana import dari sql menjadi csv?
+- Lalu file yang ada di dalam folder dataset (file csv semua) kita hapus semua, kita hanya butuh data `barang.csv`, `penjualan.csv`, `pelanggan.csv`, dan `penjualan_fact`
