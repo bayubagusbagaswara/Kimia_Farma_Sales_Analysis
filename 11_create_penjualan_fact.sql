@@ -1,4 +1,3 @@
--- table aggregation
 create table penjualan_fact (
     id_penjualan varchar(15),
     id_invoice varchar(6),
@@ -14,7 +13,7 @@ create table penjualan_fact (
     nama_barang varchar(41),
     nama_brand varchar(10),
     jumlah_barang_terjual int,
-    harga_per_kemasan int,
     kemasan varchar(6),
-    total_penjualan int
+    harga_per_kemasan int,
+    total_harga int
 );
