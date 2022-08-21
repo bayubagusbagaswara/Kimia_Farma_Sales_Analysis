@@ -1,5 +1,5 @@
 create table `pelanggan_pre` (
-    `id_customer` int auto_increment,
+    `id_customer` varchar(9),
     `level` varchar(7),
     `nama` varchar(17),
     `id_cabang_sales` varchar(5),
