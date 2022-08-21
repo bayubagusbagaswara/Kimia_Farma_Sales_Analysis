@@ -3,7 +3,6 @@ create table penjualan_fact (
     id_invoice varchar(6),
     tanggal date,
     id_customer varchar(9),
-    `level` varchar(10),
     nama_customer varchar(17),
     id_cabang_sales varchar(5),
     nama_cabang_sales varchar(9),
