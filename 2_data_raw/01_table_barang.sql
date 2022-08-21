@@ -6,5 +6,6 @@ create table `barang` (
     `nama_tipe` varchar(11),
     `kode_lini` int(11),
     `lini` varchar(8),
-    `kemasan` varchar(6)
+    `kemasan` varchar(6),
+    primary key (kode_barang)
 );
