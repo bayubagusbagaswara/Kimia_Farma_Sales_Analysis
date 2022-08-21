@@ -1,10 +1,10 @@
-CREATE TABLE `penjualan_ds` (
+create table `penjualan_ds` (
     `id_invoice` varchar(6),
-    `tanggal` datetime,
+    `tanggal` date,
     `id_customer` varchar(9),
     `id_barang` varchar(7),
-    `jumlah_barang` decimal(16, 13),
+    `jumlah_barang` int,
     `unit` varchar(6),
-    `harga` int(11),
+    `harga` int,
     `mata_uang` varchar(3)
 );
