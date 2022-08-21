@@ -1,0 +1,2 @@
+-- kita akan join table barang dan table barang_ds
+-- kita hanya membutuhkan data id_barang, nama, kemasan, harga, kode_brand, nama_brand, nama_tipe

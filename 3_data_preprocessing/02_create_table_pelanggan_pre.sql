@@ -1,0 +1,2 @@
+-- kita akan join table pelanggan dan pelanggan_ds berdasarkan
+-- kita hanya butuh data id_customer, level, nama, id_cabang_sales, nama_sales, id_distributor, group
