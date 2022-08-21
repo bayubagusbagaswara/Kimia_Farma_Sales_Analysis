@@ -2,6 +2,7 @@ create table penjualan_fact (
     id_penjualan varchar(15),
     id_invoice varchar(6),
     tanggal date,
+    minggu int,
     id_customer varchar(9),
     nama_customer varchar(17),
     id_cabang_sales varchar(5),
