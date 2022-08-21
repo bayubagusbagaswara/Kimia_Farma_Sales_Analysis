@@ -1,9 +1,10 @@
-CREATE TABLE `barang_ds` (
+create table `barang_ds` (
     `kode_barang` varchar(7),
     `nama_barang` varchar(41),
     `kemasan` varchar(6),
-    `harga` int(11),
+    `harga` int,
     `nama_tipe` varchar(11),
-    `kode_brand` int(11),
-    `brand` varchar(8)
+    `kode_brand` int,
+    `brand` varchar(8),
+    primary key (kode_barang)
 );
