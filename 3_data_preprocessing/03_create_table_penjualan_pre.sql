@@ -1,7 +1,16 @@
--- kita join antara table penjualan dan table penjualan_ds berdasarkan id_barang
--- tujuannya untuk mengambil harga dan kemasan/unit yang berada di table penjualan_ds
--- pada table penjualan kita hanya mengambil id_distributor, id_cabang, id_invoice, tanggal, id_customer, id_barang, jumlah_barang, mata_uang, brang_id, lini (nama_brand)
+-- untuk unit dan harga kita bisa ambil dari tabel barang_ds
 create table `penjualan_pre` (
     `id_penjualan` varchar(30),
-    `id_cabang`
+    `id_distributor` varchar(3),
+    `id_cabang_sales` varchar(5),
+    `id_invoice` varchar(6),
+    `tanggal` date,
+    `id_customer` varchar(9),
+    `id_barang` varchar(7),
+    `jumlah_barang` int,
+    `unit` varchar(6),
+    `harga` int,
+    `mata_uang` varchar(3),
+    `nama_brand` varchar(8),
+    primary key (id_penjualan)
 );
