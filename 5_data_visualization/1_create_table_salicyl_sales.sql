@@ -1,0 +1,23 @@
+create table `penjualan_aggregation`(
+    `id_penjualan` varchar(30),
+    `id_invoice` varchar(6),
+    `tanggal` date,
+    `hari` varchar(10),
+    `minggu` int,
+    `bulan` varchar(10),
+    `id_customer` varchar(9),
+    `nama_customer` varchar(17),
+    `id_cabang_sales` varchar(5),
+    `cabang_sales` varchar(9),
+    `id_distributor` varchar(3),
+    `group` varchar(6),
+    `id_barang` varchar(7),
+    `nama_barang` varchar(41),
+    `nama_brand` varchar(8),
+    `jumlah_barang` int,
+    `harga` int,
+    `mata_uang` varchar(3),
+    `unit` varchar(6),
+    `total` int,
+    primary key (id_penjualan)
+);
